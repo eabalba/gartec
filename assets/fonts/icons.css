@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'icomoon';
+  src:
+    url('/wp-content/themes/garteccommercial-b9/assets/fonts/icomoon.ttf?ymkb8z') format('truetype'),
+    url('/wp-content/themes/garteccommercial-b9/assets/fonts/icomoon.woff?ymkb8z') format('woff'),
+    url('/wp-content/themes/garteccommercial-b9/assets/fonts/icomoon.svg?ymkb8z#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="fa-"], [class*=" fa-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-phone-alt:before {
+  content: "\f095";
+}
+.fa-twitter:before {
+  content: "\f099";
+}
+.fa-facebook:before {
+  content: "\f09a";
+}
+.fa-facebook-f:before {
+  content: "\f09a";
+}
+.fa-envelope:before {
+  content: "\f0e0";
+}
